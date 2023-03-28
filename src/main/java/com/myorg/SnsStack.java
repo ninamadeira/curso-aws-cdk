@@ -22,7 +22,7 @@ public class SnsStack extends Stack {
                 .build())
                 .build();
 
-        productEventsTopic.getTopic().addSubscription(EmailSubscription.Builder.create("nina.madeira@gmail.com")
+        productEventsTopic.getTopic().addSubscription(EmailSubscription.Builder.create("ninamadeira98@gmail.com")
                 .json(true)
                 .build());
 
